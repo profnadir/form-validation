@@ -1,0 +1,11 @@
+La htmlspecialchars()fonction convertit les caractères spéciaux en entités HTML. Cela signifie qu'il remplacera les caractères HTML comme <et > par &lt;et &gt;. Cela empêche les attaquants d'exploiter le code en injectant du code HTML ou Javascript (attaques Cross-site Scripting) dans les formulaires
+
+<script>alert('hacked')</script>
+&quot;&gt;&lt;script&gt;alert('hacked')&lt;/script&gt;"
+
+
+Supprimez les caractères inutiles (espace supplémentaire, tabulation, nouvelle ligne) des données saisies par l'utilisateur (avec la trim()fonction PHP)
+Supprimez les barres obliques inverses \des données d'entrée utilisateur (avec la stripslashes()fonction PHP)
+
+
+aujourd\'hui
